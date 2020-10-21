@@ -1,0 +1,170 @@
+
+
+/* Fonts and colors*/
+
+h1{
+	color: #495867;
+	font-size: 32px;
+	font-family: avenir;
+	font-weight:bold;
+	text-align: center;
+}
+
+h2{
+	font-family: courier;
+	font-weight:lighter;
+	color:#577399;
+	font-size: 24px;
+	text-align: center;
+}
+
+body{
+	background-color: #bdd5ea;
+	text-align: center;
+	font-family: avenir;
+	color: rgb(50, 50, 50);
+	font-size:17px;
+}
+
+
+div{
+
+
+
+}
+
+p{
+	margin-bottom: 20px;
+
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	transition:color 0,3s ease;
+	font-size: 16px;
+
+}
+
+a:hover {
+	color:red ;
+}
+
+
+
+
+/* Custom designs with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+		background-color: red;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+		background-color: blue;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+		background-color: green;
+	}
+}
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+
+}
+
+.btn-red{
+	background-color: #FE5F55;
+	padding: 15px 20px;
+	border-radius:4px;
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	margin: 100px;
+
+}
+
+.btn-red:hover {
+	background-color: #FEA09A;
+	color:white;
+
+}
+
+.list-inline{
+	text-decoration: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-left{
+	text-align: left;
+}
+
+
+.card-inline{
+	display: inline-block;
+	width: 200px;
+}
+.container-inline{
+	width: 200px;
+	margin: 40px auto;
+}
+
+
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(50, 50, 100);
+}
+
+.card-propor {
+
+}
+
+/* Adjustments with id*/
+.introduction p {
+	margin-bottom: 40px;
+
+}
+
+
+/*
+
+
+
+list-inline
+
